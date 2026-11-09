@@ -56,3 +56,9 @@
 .lighthouse-copy{max-width:860px;display:grid;gap:16px}
 .lighthouse-copy p{margin:0;color:#c6d2e0;font-size:clamp(13px,1.2vw,16px);line-height:2.2;word-break:keep-all}
 @media(max-width:580px){.lighthouse-inner{gap:17px}.lighthouse-inner h2{font-size:clamp(27px,7vw,35px)}.lighthouse-copy{gap:17px}.lighthouse-copy p{font-size:13px;line-height:2}}
+
+/* Consolidated promise page */
+.promise-doc-section{padding-top:0;padding-bottom:78px;background:#091326}
+.promise-doc-section .documented-promise{margin-top:0}
+.lighthouse-promise-detail{padding-bottom:70px}
+@media(max-width:580px){.promise-doc-section{padding-bottom:55px}.lighthouse-promise-detail{padding-bottom:55px}}
