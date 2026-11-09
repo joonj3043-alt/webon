@@ -47,3 +47,12 @@
 .documented-promise p{margin:0 auto;max-width:760px;color:#bdcada;font-size:14px;line-height:1.9}
 .documented-promise-page{margin-top:0;margin-bottom:70px;max-width:100%}
 @media(max-width:580px){.documented-promise{margin-top:35px;margin-bottom:12px;padding:27px 15px}.documented-promise h3{font-size:18px}.documented-promise p{font-size:12px}.documented-promise-label{font-size:10px;letter-spacing:.15em}.documented-promise-page{margin-top:0;margin-bottom:50px}}
+
+/* OUR COMMITMENT — lighthouse promise */
+.lighthouse-promise{background:radial-gradient(ellipse at 50% 0%,#172c49 0%,#0b192d 60%,#091426 100%);border-top:1px solid rgba(230,189,118,.17);border-bottom:1px solid rgba(255,255,255,.06)}
+.lighthouse-inner{text-align:center;display:flex;flex-direction:column;align-items:center;gap:20px}
+.lighthouse-inner h2{font-size:clamp(29px,4vw,49px);line-height:1.5;letter-spacing:-.06em;margin:0;font-weight:850}
+.lighthouse-rule{width:52px;height:2px;background:var(--gold);margin:3px 0 6px}
+.lighthouse-copy{max-width:860px;display:grid;gap:16px}
+.lighthouse-copy p{margin:0;color:#c6d2e0;font-size:clamp(13px,1.2vw,16px);line-height:2.2;word-break:keep-all}
+@media(max-width:580px){.lighthouse-inner{gap:17px}.lighthouse-inner h2{font-size:clamp(27px,7vw,35px)}.lighthouse-copy{gap:17px}.lighthouse-copy p{font-size:13px;line-height:2}}
