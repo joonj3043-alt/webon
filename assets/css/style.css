@@ -31,3 +31,19 @@
 .pricing-link{margin-top:auto;color:var(--gold2);font-size:13px;font-weight:800;display:inline-flex;align-items:center;gap:10px;align-self:flex-start;border-bottom:1px solid rgba(230,189,118,.4);padding-bottom:5px}
 .pricing-link:hover{color:#fff}
 @media(max-width:680px){.pricing-grid-two{grid-template-columns:1fr}.pricing-grid-two .pricing-card{min-height:280px}}
+
+/* WEBON promise section */
+.webon-promise-section{padding:86px 0 82px;text-align:center;background:linear-gradient(180deg,#0b182c,#0b192e);border-bottom:1px solid rgba(255,255,255,.07)}
+.promise-inner{display:flex;flex-direction:column;align-items:center;gap:19px}
+.promise-inner h2{margin:0;max-width:1050px;font-size:clamp(28px,4vw,52px);line-height:1.5;letter-spacing:-.065em;font-weight:850;text-wrap:balance}
+.promise-rule{display:block;height:2px;width:56px;background:var(--gold)}
+@media(max-width:580px){.webon-promise-section{padding:63px 0}.promise-inner{gap:16px}.promise-inner h2{font-size:clamp(26px,6.9vw,35px);line-height:1.58}}
+
+/* Documented promise inside the five-year guarantee section */
+.documented-promise{margin:57px auto 15px;padding:33px 36px 34px;max-width:960px;text-align:center;border-top:1px solid rgba(230,189,118,.27);border-bottom:1px solid rgba(230,189,118,.27);background:linear-gradient(90deg,transparent,rgba(230,189,118,.035),transparent)}
+.documented-promise-label{display:flex;justify-content:center;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:.24em;color:var(--gold)}
+.documented-promise-icon{display:inline-grid;place-items:center;width:26px;height:26px;border:1px solid rgba(230,189,118,.55);border-radius:8px;color:var(--gold);font-size:14px;letter-spacing:0}
+.documented-promise h3{font-size:clamp(18px,2.3vw,25px);font-weight:800;line-height:1.65;letter-spacing:-.04em;margin:16px auto 12px;max-width:770px}
+.documented-promise p{margin:0 auto;max-width:760px;color:#bdcada;font-size:14px;line-height:1.9}
+.documented-promise-page{margin-top:0;margin-bottom:70px;max-width:100%}
+@media(max-width:580px){.documented-promise{margin-top:35px;margin-bottom:12px;padding:27px 15px}.documented-promise h3{font-size:18px}.documented-promise p{font-size:12px}.documented-promise-label{font-size:10px;letter-spacing:.15em}.documented-promise-page{margin-top:0;margin-bottom:50px}}
