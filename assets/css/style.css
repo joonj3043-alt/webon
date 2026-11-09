@@ -62,3 +62,9 @@
 .promise-doc-section .documented-promise{margin-top:0}
 .lighthouse-promise-detail{padding-bottom:70px}
 @media(max-width:580px){.promise-doc-section{padding-bottom:55px}.lighthouse-promise-detail{padding-bottom:55px}}
+
+/* Single centered consultation CTA at bottom of homepage */
+.closing-simple{padding:88px 0;background:linear-gradient(100deg,#172b48,#0c1c32)}
+.closing-simple .closing-inner{display:flex;justify-content:center;align-items:center}
+.closing-simple .closing-main-cta{min-height:76px;min-width:min(100%,440px);padding:16px 46px;font-size:23px;letter-spacing:-.03em;border-radius:12px;text-align:center}
+@media(max-width:580px){.closing-simple{padding:64px 0}.closing-simple .closing-inner{display:flex}.closing-simple .closing-main-cta{min-height:65px;width:100%;min-width:0;padding:12px 18px;font-size:19px;margin:0}}
